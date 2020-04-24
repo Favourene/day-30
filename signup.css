@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-size: cover;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(241, 241, 241);
+}
+nav .logo{
+    flex: 1;
+    color: rgb(158, 33, 137);
+    margin-left: 50px;
+}
+img{
+    margin-left: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+@media screen and (max-width:600px){
+    img{
+        margin-left: 5px;
+    }
+    ul li{
+        font-size: 13px;
+    }
+}
+nav ul{
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+
+.a{
+    color: skyblue;
+}
+.b{
+  color:   rgb(214, 47, 186);
+}
+.f{
+    color: greenyellow;
+}
+.d{
+    color: red;
+}
+.e{
+    color: orange;
+}
+.gup{
+    padding-top: 110px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.h1{
+    margin-left: 80px;
+    width: 30%;
+    font-size: 80px;
+    color: rgb(158, 33, 137);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.bow{
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+.fa{
+    color: rgb(158, 33, 137);
+    margin-left: -24px;
+}
+input, select{
+    border-radius: 10px;
+    background: rgb(236, 231, 231);
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+select{
+    color: rgb(158, 33, 137);
+}
+#bom{
+    color: grey;
+}
+button{
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background: rgb(158, 33, 137);
+    margin-bottom: 20px;
+}
+.fo{
+    padding-bottom: 10px;
+}
+.fo a{
+    color: black;
+}
+.p{
+    width: 15%;
+}
+.textt{
+    margin-top: -270px;
+    margin-bottom: 200px;
+    padding: 10px 10px 10px 150px;
+    width: 30%;
+    margin-left: -30px;
+    border-radius: 20px;
+    background: rgb(158, 33, 137);
+    color: white
+}
+@media screen and  (max-width:600px){
+    .p{ width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .p p{
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 40%;
+    }
+    .textt{
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 50px;
+    }
+  
+}
+.front{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background: skyblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.back{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background: rgb(158, 33, 137);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.pyt{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background: rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.andr{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background: greenyellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.ui{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background: red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Desi{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background: orange;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+span{
+    padding-left: 10px;
+}
+@media screen and (max-width:600px){
+    .h1{
+        width: 100%;
+        margin-left: 2px;
+    }
+    .bow{
+        width: 100%;
+        margin-right: 3px;
+    }
+    .gup{
+        margin-left: 1px;
+    }
+}
